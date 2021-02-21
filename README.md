@@ -1,2 +1,2 @@
-# wakeland_site
-Erin Wakeland Website
+# erin_wakeland-
+Personal Website for Erin Wakeland

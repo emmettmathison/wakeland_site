@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(90, 156, 255, 0.995);
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.homeContainer {
+  z-index: 1;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr 0.5fr;
+}
+
+.header {
+  width: 100vw;
+  /* border: 1px solid black; */
+  z-index: 100;
+}
+
+#lookingAt {
+  text-decoration: underline;
+}
+
+.nav {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bolder;
+
+  z-index: 25;
+  /* float: right; */
+  color: rgb(0, 0, 97);
+}
+
+.link {
+  color: rgb(0, 0, 97);
+  text-decoration: none;
+}
+
+#projectsLink,
+#aboutLink {
+}
+
+#projectsLink:hover,
+#aboutLink:hover {
+  text-decoration: underline;
+}
+
+#projectsLink:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+}
+
+.nav {
+  float: right;
+}
+
+/* nav container */
+.nav {
+  overflow: hidden;
+
+  font-family: Arial;
+}
+
+/* Links inside the nav */
+.nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to nav links on hover */
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 192, 205, 0.6);
+  font-size: 14px;
+  width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(228, 92, 255, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mainBody {
+  width: 100vw;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.textContainer {
+  align-self: center;
+  margin-bottom: 12%;
+}
+
+.footer {
+  /* border: 1px solid black; */
+}
+
+.textContainer {
+  padding: 20px;
+  max-height: 80vw;
+  overflow: scroll;
+  min-width: 460px;
+  z-index: 20;
+}
+
+.text {
+  font-size: 1.22em;
+  line-height: 1.2em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 97);
+}
+
+.media {
+  display: none;
+  position: absolute;
+}
+
+.media:hover {
+}
+
+.gallery {
+}
+
+#erin {
+  margin-left: 5vw;
+  position: absolute;
+  max-width: 15vw;
+  margin-top: -98vh;
+}
+
+#designedThingsImage {
+  margin-top: -95vh;
+  margin-left: 35vw;
+  z-index: 5;
+  width: 400px;
+}
+
+#oldPageMovie {
+  margin-top: -95vh;
+  position: absolute;
+  width: 17vw;
+  margin-left: 60vw;
+}
+
+#yarnMovie {
+  position: absolute;
+  margin-top: -30vh;
+  margin-left: 33vw;
+  width: 17vw;
+}
+
+#painting {
+  margin-top: -42vh;
+  margin-left: 81vw;
+  width: 15vw;
+}
+
+#book {
+  margin-top: -56vh;
+  margin-left: 7vw;
+  width: 10vw;
+}
+
+#earthBodyImage {
+  margin-top: -71vh;
+  width: 21vw;
+  margin-left: 80vw;
+}
+
+#earth {
+  margin-top: -100vh;
+  width: 13vw;
+  margin-left: 43.5vw;
+}
+
+#filmSetPhoto {
+  margin-top: -36vh;
+  width: 16vw;
+  margin-left: 16vw;
+}
+
+#elephantPhoto {
+  margin-top: -32vh;
+  width: 15vw;
+  margin-left: 49vw;
+}
+
+#islandSurvivalPhoto {
+  margin-top: -40vh;
+  width: 10vw;
+}
+
+#bathtubPhoto {
+  margin-top: -95vh;
+  width: 18vw;
+  margin-left: 80vw;
+}
+
+#postcard {
+  margin-top: -95vh;
+  width: 15vw;
+  margin-left: 24vw;
+}
+
+#photoFriends {
+  margin-top: -32vh;
+  width: 17vw;
+  margin-left: 64vw;
+}
+
+#everythingYouNeed {
+  margin-top: -29vh;
+  margin-left: 1vw;
+  width: 15vw;
+}
+
+.background {
+  position: absolute;
+  margin-bottom: 20vh;
+  margin: 0 auto;
+  margin-left: -50px;
+  margin-top: -20vh;
+  z-index: 0;
+}
+
+#sky {
+  min-width: 110vw;
+}
+
+@media (max-width: 900px) {
+  .showOnDesktop {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  .showOnDesktop {
+    display: block;
+  }
+  .showOnMobile {
+    display: none;
+  }
+}
